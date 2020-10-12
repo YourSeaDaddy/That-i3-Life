@@ -1,0 +1,65 @@
+URxvt*transparent: true
+URxvt*depth: 32
+URxvt.boldFont:xft:droid sans mono slashed:size=11 
+URxvt.font:xft:droid sans mono slashed:size=11
+URxvt*shading:40 
+URxvt*scrollBar: false
+#URxvt*termName:screen-256color
+#URxvt*colorUL:White
+#URxvt*foreground:White
+
+! speacial
+*.foreground:  #ffffff
+*.cursorColor: #ffffff
+
+
+! black
+*.color0:       #1c2023
+*.color8:	#747c84
+
+! Yellow
+*.color1:	#C3C318
+*.color9:	#C3C318
+
+! green
+*.color2:	#57fdac
+*.color10:	#57fdac
+
+! yellow
+*.color4:	#ffffff
+*.color12:	#f9ff00
+
+! blue
+*.color4:	#00f0f4
+*.color12:	#00f0f4
+
+! cyan
+*.color5:	#28bbc1
+*.color13:	#28bbc1
+
+! blue hue
+*.color6:	#95aec7
+*.color14:	#00DEFF
+
+! white
+*.color7:	#c7ccd1
+*.color15:	#f3f4f5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
