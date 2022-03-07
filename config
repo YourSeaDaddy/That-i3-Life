@@ -237,11 +237,9 @@ smart_gaps on
 gaps inner 5
 gaps outer 5
 
-###WATCH-OUT-FOR-THE-TRANNYVESTITES-OUT-THERE######
-#exec_always --no-startup-id picom -bc
 
 
-####TRANNYVESTITES-TERMINAL######
+####Transperant-TERMINAL######
 exec_always --URxvt.transparent: true
 #exec_always --URxvt.shading:20
 
@@ -250,7 +248,7 @@ exec_always --URxvt.transparent: true
 
 
 ####CUSTOM-KEYBIND-FOR-MAXIMUM-AUTISM####
-bindsym $mod+b exec /usr/bin/brave
+bindsym $mod+b exec /usr/bin/firefox-esr
 
 bindsym $mod+n exec /usr/sbin/subl
 
@@ -259,6 +257,8 @@ bindsym $mod+o exec /usr/lib/libreoffice/program/swriter
 bindsym $mod+t exec /usr/bin/deluge
 
 bindsym $mod+p exec /usr/bin/urxvt termName: -e ranger
+
+bindsym $mod+c exec /usr/bin/spectacle
 #bindsym $mod+p exec urxvtc 
 
 
@@ -286,3 +286,4 @@ bindsym $mod+Escape	workspace prev
 
 ####FOCUSED HIGHLIGHT####
 client.focused	#002b36 #blue #fdf6e3 #268bd2
+
