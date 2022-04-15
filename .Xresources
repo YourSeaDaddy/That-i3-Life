@@ -1,3 +1,5 @@
+#urxvt*background: rgba:0000/0000/0200/c800URxvt.transparent: true 
+#Urxvt.transparent: true
 URxvt*transparent: true
 URxvt*depth: 32
 URxvt.boldFont:xft:droid sans mono slashed:size=11 
@@ -7,8 +9,9 @@ URxvt*scrollBar: false
 #URxvt*termName:screen-256color
 #URxvt*colorUL:White
 #URxvt*foreground:White
-
-! speacial
+urxvt.perl-ext-common: resize-font
+ 
+! special
 *.foreground:  #ffffff
 *.cursorColor: #ffffff
 
@@ -47,19 +50,8 @@ URxvt*scrollBar: false
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#External Monitor
+#Xft.dpi: 180
 
 
 
