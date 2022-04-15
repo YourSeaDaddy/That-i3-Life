@@ -237,9 +237,11 @@ smart_gaps on
 gaps inner 5
 gaps outer 5
 
+###WATCH-OUT-FOR-THE-TRANNYVESTITES-OUT-THERE######
+#exec_always --no-startup-id picom -bc
 
 
-####Transperant-TERMINAL######
+####TRANNY-TERMINAL######
 exec_always --URxvt.transparent: true
 #exec_always --URxvt.shading:20
 
@@ -247,7 +249,7 @@ exec_always --URxvt.transparent: true
 #URxvt*foreground: #eeeeee
 
 
-####CUSTOM-KEYBIND-FOR-MAXIMUM-AUTISM####
+####CUSTOM-KEYBIND-FOR-MINIMAL-EFFORT####
 bindsym $mod+b exec /usr/bin/firefox-esr
 
 bindsym $mod+n exec /usr/sbin/subl
@@ -286,4 +288,3 @@ bindsym $mod+Escape	workspace prev
 
 ####FOCUSED HIGHLIGHT####
 client.focused	#002b36 #blue #fdf6e3 #268bd2
-
