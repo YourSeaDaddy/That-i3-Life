@@ -237,11 +237,11 @@ smart_gaps on
 gaps inner 5
 gaps outer 5
 
-###WATCH-OUT-FOR-THE-TRANNYVESTITES-OUT-THERE######
+###Transparent Terminals######
 #exec_always --no-startup-id picom -bc
 
 
-####TRANNY-TERMINAL######
+####Transparent-TERMINAL######
 exec_always --URxvt.transparent: true
 #exec_always --URxvt.shading:20
 
